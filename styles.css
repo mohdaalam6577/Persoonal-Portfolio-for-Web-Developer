@@ -27,7 +27,6 @@ h2{
     text-align: center;
     text-transform: capitalize;
     padding: 30px;
-    cursor: pointer;
     color: var(--header-footer-color);
 }
 
@@ -145,7 +144,7 @@ ul li a:hover {
     margin-bottom: 1rem;
 }
 
-.contact .title span {
+.content .title span {
     text-transform: uppercase;
     font-weight: 600;
     color: var(--Orange-color);
@@ -204,6 +203,7 @@ ul li a:hover {
     color: var(--White-color);
     font-size: 22px;
     border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .8);
     transition: all 0.3s ease;
 }
 
@@ -339,7 +339,7 @@ ul li a:hover {
 }
 
 .card .icon{
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 10px;
     color: var(--Orange-color);
 }
@@ -536,7 +536,7 @@ ul li a:hover {
 #contact .contact-title h2::after{
     content: " ";
     height: 4px;
-    width: 150px;
+    width: 220px;
     background-color: var(--Orange-color);
     display: block;
     margin: auto;
@@ -583,6 +583,7 @@ ul li a:hover {
     
 
 .contact-form button {
+    width: 150px;
     padding: 10px 20px;
     background-color: var(--Orange-color);
     color: var(--White-color);
